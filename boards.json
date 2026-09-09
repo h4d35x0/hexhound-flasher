@@ -1,0 +1,70 @@
+{
+  "version": "0.4.4",
+  "boards": [
+    {
+      "id": "t-dongle-s3",
+      "name": "LilyGo T-Dongle S3",
+      "chip": "ESP32-S3",
+      "bin": "hexhound-t-dongle-s3.bin",
+      "size": 1326432,
+      "sha256": "cc05dc432356800ddf890db72e295bb64b1ac8798d2e70e28a18f35ed0e12c8f"
+    },
+    {
+      "id": "t-dongle-s3-hid",
+      "name": "LilyGo T-Dongle S3 (USB HID)",
+      "chip": "ESP32-S3",
+      "bin": "hexhound-t-dongle-s3-hid.bin",
+      "size": 1377408,
+      "sha256": "82099ad5d5517bf94f51c79fd7291645c3c7f53bed706a413bb82e8b1e4dc1cb"
+    },
+    {
+      "id": "t-display-s3",
+      "name": "LilyGo T-Display S3",
+      "chip": "ESP32-S3",
+      "bin": "hexhound-t-display-s3.bin",
+      "size": 1560576,
+      "sha256": "ce0de98c888560c06b389de8739996e936b4172bf1efb4aab3cdc074943106d3"
+    },
+    {
+      "id": "waveshare-147b",
+      "name": "Waveshare 1.47B",
+      "chip": "ESP32-S3",
+      "bin": "hexhound-waveshare-147b.bin",
+      "size": 1586640,
+      "sha256": "24379e4f5418cf2488b857c85d5e046dea60abad0892ea0d4a04838242eff341"
+    },
+    {
+      "id": "waveshare-touch-147",
+      "name": "Waveshare Touch 1.47",
+      "chip": "ESP32-S3",
+      "bin": "hexhound-waveshare-touch-147.bin",
+      "size": 1612608,
+      "sha256": "76221f4000a105b141a41d8022dfce29c1d45afb5e39f168e910ce581aa36176"
+    },
+    {
+      "id": "t-dongle-c5",
+      "name": "LilyGo T-Dongle C5",
+      "chip": "ESP32-C5",
+      "bin": "hexhound-t-dongle-c5.bin",
+      "size": 1997408,
+      "sha256": "4614e58095c65ea0866bd3f16233318f55c5d349a01ccf1622bb8aff84882c9f"
+    },
+    {
+      "id": "waveshare-128-round",
+      "name": "Waveshare 1.28 Round",
+      "chip": "ESP32-S3",
+      "bin": "hexhound-waveshare-128-round.bin",
+      "size": 1906336,
+      "sha256": "166419ac213fe9b61cd5d4b7491216a93f739d746207fc957e7e16160087d989"
+    },
+    {
+      "id": "t-rgb",
+      "name": "LilyGo T-RGB 2.1in Round",
+      "chip": "ESP32-S3",
+      "bin": "hexhound-t-rgb.bin",
+      "size": 4281984,
+      "sha256": "f9574325059cf6f8ff123e0cc83ebe0e5138d2cfbf5e2c0e83b4bbc3382ab4f1",
+      "note": "The T-RGB stays in download mode after flashing and the screen stays dark until you reset it. That is normal for this board, not a failed flash. Press the RST button, or unplug and replug the USB cable, and it will boot."
+    }
+  ]
+}

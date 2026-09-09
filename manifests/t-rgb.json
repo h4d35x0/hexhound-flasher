@@ -1,0 +1,16 @@
+{
+  "name": "HexHound - LilyGo T-RGB 2.1in Round",
+  "version": "0.4.4",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "../firmware/hexhound-t-rgb.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
